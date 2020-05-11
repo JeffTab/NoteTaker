@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
-app.use(apiRoutes)
+app.use(apiRoutes);
 app.use(htmlRoutes);
 
 
